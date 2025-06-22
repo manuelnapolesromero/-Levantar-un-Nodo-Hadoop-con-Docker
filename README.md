@@ -32,7 +32,7 @@ cd docker-hadoop
 **2. Iniciar los Contenedores Docker:** Dentro del directorio docker-hadoop, ejecuta el comando para iniciar los contenedores definidos en el archivo docker-compose.yml:
 
 Bash
-docker-compose up -d
+docker compose up -d
 
 Este comando descargará las imágenes de Docker necesarias (si no las tienes ya) y creará e iniciará los contenedores para Hadoop (namenode, datanode, resourcemanager, nodemanager, historyserver). La primera vez puede tardar un poco debido a la descarga de las imágenes.
 
