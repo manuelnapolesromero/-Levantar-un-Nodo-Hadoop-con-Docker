@@ -28,7 +28,6 @@ git clone https://github.com/big-data-europe/docker-hadoop.git
 cd docker-hadoop
 
 
-
 **2. Iniciar los Contenedores Docker:** Dentro del directorio docker-hadoop, ejecuta el comando para iniciar los contenedores definidos en el archivo docker-compose.yml:
 
 Bash
